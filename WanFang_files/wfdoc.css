@@ -280,3 +280,30 @@ table.imgtable {
 table.imgtable td {
 	border: currentColor; border-image: none; text-align: left;
 }
+table
+{
+padding: 5px;
+}
+
+table.pub_table,td.pub_td1,td.pub_td2
+{
+padding: 8px;
+width: 860px;
+    border-collapse: separate;
+    border-spacing: 15px;
+    margin-top: -5px;
+}
+
+td.pub_td1
+{
+width:50px;
+}
+td.pub_td1 img
+{
+  /*height:120px;*/
+  width: 160px;
+}
+
+table.pub_table tr {
+  /*outline: thin dotted #666666;*/
+}
